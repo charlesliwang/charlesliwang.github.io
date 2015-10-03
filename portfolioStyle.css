@@ -29,10 +29,10 @@ a:visited {
 	color: rgba(146,146,146,1.00);
 }
 a:hover {
-	color: rgba(255,255,255,1.00);
+	color: rgba(0,0,0,1.00);
 }
 .linkStyle {
-	color: rgba(100,100,100,1.00);
+	color: rgba(255,255,255,1.00);
 	font-family: 'montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 100;
