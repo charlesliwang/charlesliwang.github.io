@@ -12,7 +12,7 @@
 <!--<meta name="keywords" content="HTML5,CSS3,Dreamweaver CC,Starter kits,Free templates">-->
 <!--<meta name="author" content="Adobe Dreamweaver CC"> -->
 <meta name="description" content="Portfolio">
---<meta name="author" content="Charles Wang">
+<meta name="author" content="Charles Wang">
 <title>Charles Wang Portfolio</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="portfolioResponsive.css" rel="stylesheet" type="text/css">
@@ -50,12 +50,12 @@ Container starts here
     <header class="fluid hero heroHeader">
       <!--Add you logo here-->
       <a href="index.html" title="HOME"><figure class="fluid logo textStyle">HOME</figure></a>
-        <nav class="fluid topNav">
+      <nav class="fluid topNav">
         <!-- Customize your navigation links-->
-          <ul class="fluid fluidList topNavUl">
+        <ul class="fluid fluidList topNavUl">
             <li class="fluid topNavLI zeroMargin_desktop zeroMargin_tablet zeroMargin_mobile"><strong><a href="art.html" class="linkStyle" title="Nav Link">ART</a></strong></li>
             <li class="fluid topNavLI"><strong><a href="music.html" class="linkStyle" title="Nav Link">MUSIC</a></strong></li>
-            <li class="fluid topNavLI"><strong><a href="code.html" class="linkStyle" title="Nav Link">CODE</a></strong></li>
+          <li class="fluid topNavLI"><strong><a href="code.html" class="linkStyle" title="Nav Link">CODE</a></strong></li>
           </ul>
         </nav>
         <h1 class="fluid mainHeading headingStyle">CHARLES WANG</h1>
@@ -79,14 +79,16 @@ Container starts here
     <!--************************************************************************
     Gallery starts here - Elements hidden in mobile mode can be revisited by going into manage hidden element mode available in context menu
     ****************************************************************************-->
+
       <article class="fluid gallery">
-        <h2 class="fluid showAreaH2 headingStyle">SAMPLE WORK</h2>
+        <h2 class="fluid showAreaH2 headingStyle">SAMPLE WORK</h2>  
+        <div id="sample1">
         <figure class="fluid tiles zeroMargin_desktop zeroMargin_tablet">
-            <img src="images/pop.png" alt="placeholder" width="352"/>
+            <a href="#img1"> <img src="images/pop.png" alt="placeholder" width="352"/>
           <figcaption class="textStyle"></figcaption>
         </figure>
         <figure class="fluid tiles">
-            <img src="images/geo.png" alt="placeholder" width="352"/>
+            <a href="#img2"> <img src="images/geo.png" alt="placeholder" width="352"/>
           <figcaption class="textStyle"></figcaption>
         </figure>
         <figure class="fluid tiles  zeroMargin_tablet hide_mobile">
@@ -107,6 +109,35 @@ Container starts here
         </figure>
       </article>
     <!--Gallery ends here-->
+     <div class="lightbox" id="img1">
+      <div class="box">
+        <a class="close" href="#sample1">X</a>
+        <p class="title"> title</p>
+        <div class="content">
+            <img src="images/IMG_4541.jpg">
+        </div>
+      </div>
+    </div>    
+     
+    <div class="lightbox" id="img2">
+      <div class="box">
+        <a class="close" href="#sample1">X</a>
+        <p class="title"> title</p>
+        <div class="content">
+            <img src="images/IMG_4598.png">
+        </div>
+      </div>
+    </div>  
+     
+    <div class="lightbox" id="img3">
+      <div class="box">
+        <a class="close" href="#">X</a>
+        <p class="title">Lorem ipsum dolor sit amet</p>
+        <div class="content">
+            <img src="img/img3.jpg">
+        </div>
+      </div>
+    </div>
         
     <!--************************************************************************
     Secondary container starts here
@@ -146,7 +177,7 @@ Container starts here
         </section>
       </footer>
     <!--Footer ends here-->  
-	</div>
+</div>
 <!--Container ends here-->
 </body>
 </html>
