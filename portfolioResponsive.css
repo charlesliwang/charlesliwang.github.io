@@ -44,9 +44,9 @@ img, object, embed, video {
 .gridContainer {
 	margin-left: auto;
 	margin-right: auto;
-	width: 86.45%;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
 	clear: none;
 	float: none;
 }
@@ -155,9 +155,9 @@ display: none;
 
 @media only screen and (min-width: 481px) {
 .gridContainer {
-	width: 90.675%;
-	padding-left: 1.1625%;
-	padding-right: 1.1625%;
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
 	clear: none;
 	float: none;
 	margin-left: auto;
@@ -252,10 +252,10 @@ margin-left: 0;
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
-	width: 88.5%;
-	max-width: 1232px;
-	padding-left: 0.75%;
-	padding-right: 0.75%;
+	width: 100%;
+	max-width: 1500px;
+	padding-left: 0%;
+	padding-right: 0%;
 	margin: auto;
 	clear: none;
 	float: none;
@@ -265,7 +265,7 @@ margin-left: 0;
 .heroHeader {
 }
 .logo {
-	width: 15.2542%;
+	width: %;
 }
 /* Navigation styles*/
 .topNav {
