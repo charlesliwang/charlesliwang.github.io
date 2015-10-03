@@ -88,8 +88,8 @@ img, object, embed, video {
     padding-top:20px;
 }
 #sectionOne {
-	width: 83.0508%;
-	margin-left: 8.4745%;
+	width: 100%;
+	margin-left: 0%;
 }
 #sectionTwo {
 	width: 100%;
@@ -149,6 +149,10 @@ margin-left: 0;
 }
 .hide_mobile {
 display: none;
+}
+
+.lightbox .box {
+	width:95%;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
