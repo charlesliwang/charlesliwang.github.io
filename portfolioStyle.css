@@ -174,7 +174,7 @@ a:hover {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
-    min-width:500px;
+	min-width:70vw;
     margin: 2% auto;
     padding:10px 20px 10px 20px;
     background-color:#FFF;
