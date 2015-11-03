@@ -298,8 +298,8 @@ margin-left: 0;
 
 /* Text & content area styles*/
 .textContainer {
-    padding-top:60px;
-    padding-bottom:30px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 /*.mySection {
 	width: 40.6779%;
@@ -307,12 +307,12 @@ margin-left: 0;
 	clear: none;
 }*/
 #sectionOne {
-	width: 40.6779%;
-	margin-left: 8.4745%;
+	width: 50%;
+	margin-left: 0%;
 }
 #sectionTwo {
-	width: 40.6779%;
-	margin-left: 1.6949%;
+	width: 30vw;
+	margin-left: 10px;
 	clear: none;
 	display: block;
 }
