@@ -3,7 +3,7 @@
 /* General styles*/
 /*Define your own styles in this stylesheet*/
 body{
-	background-color: rgba(76,77,76,1.00);
+	background-color: rgba(35, 35,35,1.00);
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'montserrat' , sans-serif;
@@ -95,9 +95,10 @@ a:hover {
 	text-align: justify;
 }
 
+
 /* Gallery styles */
 .gallery{
-    padding-top:20px;
+    padding-top:0px;
     padding-bottom:30px;
 }
 .paraContent{
@@ -129,7 +130,7 @@ a:hover {
     padding-bottom: 20px;
 }
 .secondarySection {
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgba(100,100,100,1.00);
 }
 .secondaryHeading {
 	color: rgba(255,255,255,1.00);
@@ -191,6 +192,7 @@ a:hover {
 .lightbox .content {
     display:block;
     position:relative;
+    padding-bottom: 20px;
     }
  
 .lightbox .close {
@@ -207,3 +209,24 @@ a:hover {
     clear:both;
     }
 	
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.profpic {
+    float:left;
+    max-width: 45%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    padding-bottom: 3%;
+}
+
+#info {
+}
+
+.info {
+    background-color: white;
+}

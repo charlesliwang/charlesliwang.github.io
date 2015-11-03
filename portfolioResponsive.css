@@ -202,13 +202,13 @@ display: none;
     padding-top: 40px;
 }
 #sectionOne {
-	width: 40.6779%;
-    margin-left: 5.4745%;
+	width: 47%;
+    margin-left: 1%;
 }
 #sectionTwo {
 	clear: none;
-	width: 40.6779%;
-    margin-left: 8.4745%;
+	width: 47%;
+    margin-left: 1%;
 	display: block;
 }
 .tiles {
@@ -307,12 +307,12 @@ margin-left: 0;
 	clear: none;
 }*/
 #sectionOne {
-	width: 50%;
+	width: 50vw;
 	margin-left: 0%;
 }
 #sectionTwo {
-	width: 30vw;
-	margin-left: 10px;
+	width: 50vw;
+	margin-left: 0%;
 	clear: none;
 	display: block;
 }
@@ -329,10 +329,11 @@ margin-left: 0;
 
 /* Gallery styles*/
 .tiles {
-	width: 32.2033%;
+	width: 31vw;
 	clear: none;
 	margin-left: 1.6949%;
 	display: block;
+    padding-left: 1vw; 
     padding-bottom: 60px;
 }
 /* Footer styles*/
