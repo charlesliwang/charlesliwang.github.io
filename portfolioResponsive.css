@@ -348,11 +348,11 @@ margin-left: 0;
 	clear: none;
 }*/
 #sectionOne {
-	width: 50vw;
+	width: 49vw;
 	margin-left: 0%;
 }
 #sectionTwo {
-	width: 50vw;
+	width: 49vw;
 	margin-left: 0%;
 	clear: none;
 	display: block;
@@ -373,7 +373,7 @@ margin-left: 0;
 
 /* Gallery styles*/
 .tiles {
-	width: 31vw;
+	width: 30vw;
 	clear: none;
 	margin-left: 1.6949%;
 	display: block;

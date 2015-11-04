@@ -106,7 +106,7 @@ a:hover {
 /* Gallery styles */
 .gallery{
     padding-top:0px;
-    padding-bottom:30px;
+    padding-bottom:0px;
 }
 .paraContent{
 	font-size: 13px;
