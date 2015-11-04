@@ -115,8 +115,8 @@ img, object, embed, video {
 }*/
 
 .tiles {
-	width: 83.0508%;
-	margin-left: 8.4745%;
+	width: 95%;
+	margin-left: 3%;
 	clear: both;
 	display: block;
     padding-bottom: 10px;
