@@ -6,14 +6,14 @@ body{
 	background-color: rgba(35, 35,35,1.00);
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'montserrat' , sans-serif;
+	font-family: 'League-Bold' , sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-style: normal;
 	font-weight: 400;
 }
 p{
 	font-size: 14px;
-	font-family: 'alice', sans-serif;
+	font-family: 'Amatic-Bold', sans-serif;
 	font-style: normal;
 	font-weight: 100;
 	color: rgba(146,146,146,1.00);
@@ -33,7 +33,7 @@ a:hover {
 }
 .linkStyle {
 	color: rgba(255,255,255,1.00);
-	font-family: 'montserrat', sans-serif;
+	font-family: 'League-Bold', sans-serif;
 	font-style: normal;
 	font-weight: 100;
 	text-decoration: none;	
@@ -48,7 +48,7 @@ a:hover {
 .heroHeader {
 	height: 450px;
 	background-color: rgba(208,207,207,0);
-	background-image:url(images/dog1.png)
+	background-image:url(images/dog2.jpg)
 }
 /* Navigation styles*/
 .topNavUl {
@@ -61,7 +61,7 @@ a:hover {
 }
 /* Typography styles*/
 .textStyle {
-	font-family: 'montserrat', sans-serif;
+	font-family: 'League-Bold', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	color: rgba(146,146,146,1.00);
@@ -70,11 +70,11 @@ a:hover {
 	/* [disabled]font-family: 'montserrat', sans-serif; */
 	/* [disabled]font-style: normal; */
 	/* [disabled]font-weight: 400; */
-	color: rgba(146,146,146,1.00);
+	color: rgba(250,250,250,1);
 	font-size: 32px;
 }
 .mainHeading {
-	color: rgba(255,255,255,1.00);
+	color: rgba(250,250,250,1);
 	text-align: center;
 	margin-top: 10%;
 	font-size: 48px;
@@ -102,8 +102,8 @@ a:hover {
     padding-bottom:30px;
 }
 .paraContent{
-	font-size: 14px;
-	font-family: alice, sans-serif;
+	font-size: 13px;
+	font-family: paragraph, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	color: rgba(146,146,146,1.00);
@@ -126,7 +126,7 @@ a:hover {
 	
 }
 #secondaryStyling {
-	padding-top: 20px;
+	padding-top: 0px;
     padding-bottom: 20px;
 }
 .secondarySection {
@@ -183,6 +183,7 @@ a:hover {
     }
  
 .lightbox .title {
+    font-family: 'League-Bold';
     margin:0;
     padding:0 0 0px 0px;
     border-bottom:1px #ccc solid;
@@ -192,7 +193,7 @@ a:hover {
 .lightbox .content {
     display:block;
     position:relative;
-    padding-bottom: 20px;
+    padding-bottom: 17px;
     }
  
 .lightbox .close {
@@ -216,6 +217,28 @@ a:hover {
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Amatic-Bold';
+    src: url('fonts/Amatic-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'League-Bold';
+    src: url('fonts/LeagueSpartan-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'paragraph';
+    src: url('fonts/GandhiSerif-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .profpic {
     float:left;
     max-width: 45%;
@@ -228,5 +251,6 @@ a:hover {
 }
 
 .info {
-    background-color: white;
+    background-color: rgba(250,250,250,1);
 }
+
