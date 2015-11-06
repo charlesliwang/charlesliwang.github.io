@@ -8,15 +8,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<meta name="description" content="Free responsive starter kits from Dreamweaver CC">-->
-<!--<meta name="keywords" content="HTML5,CSS3,Dreamweaver CC,Starter kits,Free templates">-->
-<!--<meta name="author" content="Adobe Dreamweaver CC"> -->
+
 <meta name="description" content="Portfolio">
 <meta name="author" content="Charles Wang">
 <title>Charles Wang Portfolio</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="portfolioResponsive.css" rel="stylesheet" type="text/css">
 <link href="portfolioStyle.css" rel="stylesheet" type="text/css">
+<link href="bootstrap-responsive.css" rel="stylesheet" type="text/css">
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -47,101 +46,82 @@ Container starts here
     <!--************************************************************************
     HERO Section starts here
     ****************************************************************************-->
-    <header class="fluid hero heroHeader">
+    <header class="fluid hero heroHeaderMusic">
       <!--Add you logo here-->
       <a href="index.html" title="HOME"><figure class="fluid logo textStyle">HOME</figure></a>
-        <nav class="fluid topNav">
+      <nav class="fluid topNav">
         <!-- Customize your navigation links-->
-          <ul class="fluid fluidList topNavUl">
+        <ul class="fluid fluidList topNavUl">
             <li class="fluid topNavLI zeroMargin_desktop zeroMargin_tablet zeroMargin_mobile"><strong><a href="art.html" class="linkStyle" title="Nav Link">ART</a></strong></li>
             <li class="fluid topNavLI"><strong><a href="music.html" class="linkStyle" title="Nav Link">MUSIC</a></strong></li>
-            <li class="fluid topNavLI"><strong><a href="code.html" class="linkStyle" title="Nav Link">CODE</a></strong></li>
+          <li class="fluid topNavLI"><strong><a href="index.html" class="linkStyle" title="Nav Link">CODE</a></strong></li>
           </ul>
         </nav>
         <h1 class="fluid mainHeading headingStyle">CHARLES WANG</h1>
-        <h6 class="fluid mainTagline textStyle">Guitar and Production</h6>
-    </header>
+        <h6 class="fluid mainTagline textStyle">Guitar, Music Production</h6>
+      </header>
     <!--HERO section ends here-->
         
     <!--************************************************************************
     Primary Container starts here
     ****************************************************************************-->
-    <article class="fluid textContainer">
-      <section id="sectionOne" class="fluid "><h2 class="sectionText">About Charles</h2>
-        <p class="paraContent">Charles Wang is currently a junior at the University of Pennsylvania studying Digital Media Design. I'll figure out this about me later :~)I'm gonna fill up this spot with random stuff cause I have no idea what to say for now. This is still a prototype website even though it's public. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <article class="fluid textContainer info">
+      <section id="sectionOne" class="fluid"><h2 class="sectionText">Musical Background</h2>
+        <p class="paraContent"> I picked up the guitar in 2007 as a middle schooler desperate to be cool. Inspired by MTV rockstars such as blink-182, Fall Out Boy and My Chemical Romance, I began to prioritize music over every other aspect of my life. Through years of dedication, my public identity became more and more rooted in my musical efforts and growth. By the time I moved away from Shanghai, my best friends and I had left our mark in the international music scene in the city, with the inception of a series of acoustic charity shows and equally intimate hardcore shows. </p>
+    <p class="paraContent"> My own personal musical style is a blend of punk, hardcore, metal and rock, most evidently influenced by the previously mentioned bands, as well as The Wonder Years, August Burns Red, Protest the Hero, and many more. </p>
+          
       </section>
-      <section id="sectionTwo" class="fluid "><h2 class="sectionText">Other Column</h2>
-          <p class="paraContent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius sem neque. Integer ornare.</p>
+      <section id="sectionTwo" class="fluid "><h2 class="sectionText"><!-- Other Column--></h2>
+          <figure class="profpic">
+            <img src="images/hxp3.jpg" alt="dp" width = "215"/>
+          </figure>  
+          <figure class="profpic">
+            <img src="images/acoustic.jpg" alt="dp" width = "215"/>
+          </figure>
+          <figure class="profpic">
+            <img src="images/hxp2.jpg" alt="blurry" width = "215"/>
+          </figure>
+            
       </section>
       </article>
     <!--Primary content area ends here-->
+<article class="fluid gallery">
+        <h2 class="fluid headingStyle"> Full Solo Recordings </h2>
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216234220&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208455088&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         
-    <!--************************************************************************
-    Gallery starts here - Elements hidden in mobile mode can be revisited by going into manage hidden element mode available in context menu
-    ****************************************************************************-->
-      <article class="fluid gallery">
-        <h2 class="fluid showAreaH2 headingStyle">SAMPLE WORK</h2>
-        <figure class="fluid tiles zeroMargin_desktop zeroMargin_tablet">
-            <img src="images/pop.png" alt="placeholder" width="352"/>
-          <figcaption class="textStyle"></figcaption>
-        </figure>
-        <figure class="fluid tiles">
-            <img src="images/geo.png" alt="placeholder" width="352"/>
-          <figcaption class="textStyle"></figcaption>
-        </figure>
-        <figure class="fluid tiles  zeroMargin_tablet hide_mobile">
-            <img src="placeholder.png" alt="placeholder"/>
-          <figcaption class="textStyle"></figcaption>
-        </figure>
-         <figure class="fluid tiles zeroMargin_desktop  hide_mobile">
-             <img src="placeholder.png" alt="placeholder"/>
-          <figcaption class="textStyle"></figcaption>
-        </figure>
-        <figure class="fluid tiles zeroMargin_tablet hide_mobile">
-            <img src="placeholder.png" alt="placeholder"/>
-          <figcaption class="textStyle"></figcaption>
-        </figure>
-        <figure class="fluid tiles hide_mobile">
-            <img src="placeholder.png" alt="placeholder"/>
-          <figcaption class="textStyle"></figcaption>
-        </figure>
-      </article>
-    <!--Gallery ends here-->
+        <h2 class="fluid headingStyle"> Working Ideas and Unfinished Pieces </h2>
+     <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231783540%3Fsecret_token%3Ds-gID9H&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231779619%3Fsecret_token%3Ds-BVaxo&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    
+    
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216341655%3Fsecret_token%3Ds-Qx4gM&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231776290%3Fsecret_token%3Ds-PmwvQ&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/231776503%3Fsecret_token%3Ds-Nh5zt&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197396451%3Fsecret_token%3Ds-XxVIY&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        </article>
     <!--************************************************************************
     Secondary container starts here
     ****************************************************************************-->
       <article class="fluid textContainer" id="secondaryStyling">
         <section class="fluid secondarySection zeroMargin_desktop zeroMargin_tablet">
-          <h2 class="fluid secondaryHeading headingStyle">HEADER ONE</h2>
-           <p class="contentArea">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          <h3 class="fluid secondaryHeading contactStyle">CONTACT ME</h3>
+           <p>charlesliwang76@gmail.com</p>
+           <p class="contentArea">chawang@seas.upenn.edu</p>
         </section>
-          <section class="fluid secondarySection hide_mobile">
-          <h2 class="fluid secondaryHeading headingStyle">HEADER TWO</h2>
-          <p class="contentArea">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        </section>
-      </article>
+          </section>
+          <section class="fluid secondarySection ">
+          <h3 class="fluid secondaryHeading contactStyle">ABOUT THIS WEBSITE</h3>
+          <p class="contentArea">This website is built, designed, and organized by Charles Wang (with the help of some starting templates and online tutorials). None of this website's structure or design was paid for.</p>
     <!--Secondary content section ends here-->
         
     <!--************************************************************************
     Footer starts here
     ****************************************************************************-->
-      <footer class="fluid footer">
-          <section class="fluid footerSection zeroMargin_desktop zeroMargin_tablet"><h2 class="fluid footerTitle headingStyle">Footer 1</h2>
-          
-            <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
- 
-        </section>
-        <section class="fluid footerSection hide_mobile">
-          <h2 class="fluid footerTitle headingStyle">Footer 2</h2>
-          
-            <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-         
-        </section>
-        <section class="fluid footerSection hide_mobile">
-          <h2 class="fluid footerTitle headingStyle">Footer 3</h2>
-          
-            <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
           
         </section>
       </footer>
