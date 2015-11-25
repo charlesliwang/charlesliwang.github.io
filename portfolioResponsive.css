@@ -374,11 +374,11 @@ margin-left: 0;
 
 /* Gallery styles*/
 .tiles {
-	width: 30vw;
+	width: 30%;
 	clear: none;
 	margin-left: 1.6949%;
 	display: block;
-    padding-left: 1vw; 
+    padding-left: 1%; 
     padding-bottom: 60px;
 }
 /* Footer styles*/
