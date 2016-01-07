@@ -69,8 +69,8 @@ img, object, embed, video {
 	margin-left: 0;
 }
 .topNavLI {
-	width: 32.2033%;
-	margin-left: 1.6949%;
+	width: 20%;
+	margin-left: 1%;
 	clear: none;
 	height: auto;
 	position: static;
@@ -227,7 +227,7 @@ display: none;
 }
 .topNavLI {
 	clear: none;
-	width: 31.0344%;
+	width: 20%;
 	height: auto;
 	position: static;
 	margin-left: 3.4482%;
@@ -325,8 +325,8 @@ margin-left: 0;
 	position: static;
 }
 .topNavLI {
-	width: 28.5714%;
-	margin-left: 7.1428%;
+	width: 20%;
+	margin-left: 5%;
 	clear: none;
 	height: auto;
 	position: static;
@@ -410,4 +410,9 @@ display: none;
 .artNavHeading {
     color: rgba(250,250,250,1);
 	font-size: 2vw;
+}
+
+.reel {
+    width: 50vw;
+    padding-left: 25vw;
 }
