@@ -321,3 +321,7 @@ a:hover {
 .contactStyle {
     font-size: 25px;
 }
+
+#gallery {
+    padding-bottom: 50px;
+}
