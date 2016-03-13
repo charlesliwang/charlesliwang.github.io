@@ -125,7 +125,7 @@ a:hover {
 /* Gallery styles */
 .gallery{
     padding-top:0px;
-    padding-bottom:10px;
+    padding-bottom:1vh;
 }
 .paraContent{
 	font-size: 13px;
@@ -318,18 +318,18 @@ a:hover {
     font-size: 25px;
 }
 
-#gallery {
+#samplegallery {
     padding-bottom: 5vh;
 }
 
 #digitalgallery {
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
 }
 
 #photogallery {
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
 }
 
 #printgallery {
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
 }
