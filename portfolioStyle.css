@@ -311,10 +311,6 @@ a:hover {
     background-color: rgba(125,125,125,1);
 }
 
-#photoGal {
-    background-color: rgba(50,50,50,1);
-}
-
 #videoGal {
     background-color: rgba(0,0,0,1);
 }
@@ -323,5 +319,17 @@ a:hover {
 }
 
 #gallery {
-    padding-bottom: 50px;
+    padding-bottom: 5vh;
+}
+
+#digitalgallery {
+    padding-bottom: 5vh;
+}
+
+#photogallery {
+    padding-bottom: 5vh;
+}
+
+#printgallery {
+    padding-bottom: 5vh;
 }

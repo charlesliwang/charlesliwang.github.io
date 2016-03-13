@@ -241,10 +241,25 @@ Do the following if you're using your customized build of modernizr (http://www.
 	</script>
 <script>
         $(document).ready(function() {
-            var p = $("#gallery").portfolio({ logger: true});
+            var p = $("#photogallery").portfolio({ logger: true});
             p.init();
         }); // end of ready();
 </script>
+    
+<script>
+        $(document).ready(function() {
+            var p = $("#digitalgallery").portfolio({ logger: true});
+            p.init();
+        }); // end of ready();
+</script>
+
+<script>
+        $(document).ready(function() {
+            var p = $("#printgallery").portfolio({ logger: true});
+            p.init();
+        }); // end of ready();
+</script>
+    
     
 <script>
     $(document).ready(function() {
@@ -259,6 +274,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 	});
 });
 </script>
+    
     
 </head>
 
@@ -297,12 +313,13 @@ Container starts here
     Gallery starts here - Elements hidden in mobile mode can be revisited by going into manage hidden element mode available in context menu
     ****************************************************************************-->
     <article class="fluid navigation">
-        <a href="#digital"> <section id="sectionDigital" class="fluid pageNav">
-            <h2 class="artNavHeading"> Digital</h2>
-            </section> </a>
+        
         <a href="#photo"> <section id="sectionPhoto" class="fluid pageNav">
             <h2 class="artNavHeading"> Photography</h2>
         </section> </a>
+        <a href="#digital"> <section id="sectionDigital" class="fluid pageNav">
+            <h2 class="artNavHeading"> Digital</h2>
+            </section> </a>
         <a href="#print"> <section id="sectionPrint" class="fluid pageNav">
             <h2 class="artNavHeading"> Print</h2>
         </section> </a>
@@ -310,26 +327,11 @@ Container starts here
             <h2 class="artNavHeading"> Video</h2>
         </section> </a>
     </article>
-      <article class="fluid gallery" id="artGal">
-        <div id="digital">
-        <h2 class="fluid headingStyle">Digital</h2>  
-        <figure class="fluid tiles ">
-            <a href="#img3"> <img src="images/shanghai_render.jpg" alt="placeholder" width="528"/>
-          <figcaption class="textStyle"></figcaption> </a>
-        </figure>
-        <figure class="fluid tiles ">
-            <a href="#guitar"> <img src="images/alakazam.jpg" alt="placeholder" width="528"/>
-          <figcaption class="textStyle"></figcaption> </a>
-        </figure>
-    <figure class="fluid tiles ">
-            <a href="#world"> <img src="images/world_small.jpg" alt="placeholder" width="528"/>
-          <figcaption class="textStyle"></figcaption> </a>
-        </figure>
 
       <article class="fluid gallery" id="photoGal">
         <h2 class="fluid headingStyle">Photography</h2>  
         <div id="photo">
-            <div id="gallery">
+            <div id="photogallery">
                 <img data-src="http://charlesliwang.com/images/antonio_full.jpg">
                 <img data-src="http://charlesliwang.com/images/kidfull.jpg" />
                 <img data-src="http://charlesliwang.com/images/upsidedown_full.jpg" />
@@ -348,9 +350,41 @@ Container starts here
           </div>
        </article>
 
+    <article class="fluid gallery" id="artGal">
+        <div id="digital">
+        <h2 class="fluid headingStyle">Digital</h2> 
+            <div id="digitalgallery">
+                <a href=http://charlesliwang.com/index.html#reel>
+                    <img data-src="http://charlesliwang.com/images/demo.jpg">
+                </a>
+                <img data-src="http://charlesliwang.com/images/alakazam.001.jpg" />
+                <img data-src="http://charlesliwang.com/images/world2.png" />
+        </div> <!-- .gallery -->
+          </div>
+        </article>
+<!--
+        <figure class="fluid tiles ">
+            <a href="#img3"> <img src="images/shanghai_render.jpg" alt="placeholder" width="528"/>
+          <figcaption class="textStyle"></figcaption> </a>
+        </figure>
+        <figure class="fluid tiles ">
+            <a href="#guitar"> <img src="images/alakazam.jpg" alt="placeholder" width="528"/>
+          <figcaption class="textStyle"></figcaption> </a>
+        </figure>
+    <figure class="fluid tiles ">
+            <a href="#world"> <img src="images/world_small.jpg" alt="placeholder" width="528"/>
+          <figcaption class="textStyle"></figcaption> </a>
+        </figure>
+-->
+        
     <article class="fluid gallery" id="printGal">
         <h2 class="fluid headingStyle">Print</h2>  
         <div id="print">
+            <div id="printgallery">
+                <img data-src="http://charlesliwang.com/images/pop.png">
+                <img data-src="http://charlesliwang.com/images/FullSizeRender.jpg" />
+            </div>
+<!--
             <figure class="fluid tiles">
             <a href="#img1"> <img src="images/pop.jpg" alt="placeholder" width="528"/>
           <figcaption class="textStyle"></figcaption> </a>
@@ -363,6 +397,8 @@ Container starts here
             <a href="#img2"> <img src="images/pancham.jpg" alt="placeholder" width="528"/>
           <figcaption class="textStyle"></figcaption> </a>
         </figure>
+-->
+        </div>
       </article>
     <article class="fluid gallery" id="videoGal">
         <h2 class="fluid headingStyle">Video</h2>  
