@@ -36,8 +36,7 @@ img, object, embed, video {
 .fluidList {
 	list-style: none;
 	list-style-image: none;
-	margin: 0;
-	padding: 0;
+    padding-left: 30px;
 }
 /* Mobile Layout: 480px and below. */
   
@@ -79,6 +78,10 @@ img, object, embed, video {
 /* Main heading styles*/
 
 .mainHeading {
+    color: rgba(250,250,250,1);
+	text-align: center;
+	margin-top: 20%;
+	font-size:50px;
 }
 .mainTagline {
 }
@@ -107,6 +110,12 @@ img, object, embed, video {
 	clear: both;
 	display: none;
     overflow: scroll;
+}
+
+.reel {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 50px;
 }
 
 #sectionDigital {
@@ -240,6 +249,10 @@ display: none;
 
 /* Main heading styles*/
 .mainHeading {
+    color: rgba(250,250,250,1);
+	text-align: center;
+	margin-top: 20%;
+	font-size:70px;
 }
 .mainTagline {
 }
@@ -318,7 +331,7 @@ margin-left: 0;
 .heroHeader {
 }
 .logo {
-	width: %;
+	width: 20%;
 }
 /* Navigation styles*/
 .topNav {
@@ -336,11 +349,15 @@ margin-left: 0;
 	margin-left: 5%;
 	clear: none;
 	height: auto;
-	position: static;
+    padding: 10px;
 }
 /* Main heading styles*/
 
 .mainHeading {
+    color: rgba(250,250,250,1);
+	text-align: center;
+	margin-top: 15%;
+	font-size: 100px;
 }
 .mainTagline {
 }
@@ -360,7 +377,7 @@ margin-left: 0;
 	margin-left: 0%;
 }
 #sectionTwo {
-    height: inherit;
+    height: 100%;
 	width: 49%;
 	margin-left: 2%;
 	clear: none;
@@ -368,7 +385,13 @@ margin-left: 0;
     overflow: scroll;
 }
     
-
+.reel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 500px;
+    padding-bottom: 50px;
+}
     
 .secondarySection {
 	width: 49.1525%;
@@ -422,10 +445,11 @@ display: none;
 	font-size: 2vw;
 }
 
-.reel {
-    width: 100%;
-    height: 500px;
-    padding-bottom: 50px;
+
+
+
+
+
+#about-slide {
+    width: 500px;
 }
-
-
