@@ -1,3 +1,57 @@
 .headerStyle {
     height: 100vh;
 } 
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size:15px;
+}
+    
+h3 {
+    font-size:15px;    
+}
+    
+h4 {
+    font-size:7px;
+}
+
+p {
+	font-size: 10px;
+}
+
+.logos img{
+    width: 20px;
+    padding-left: 3px;
+}
+
+@media only screen and (min-width: 769px) { 
+    
+    h1 {
+        font-size: 100px;    
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 20px;  
+    }
+    
+    p {   
+	   font-size: 14px;
+    }
+    
+    .logos img{
+    width: 40px;
+    padding-left: 5px;
+}
+    
+}
