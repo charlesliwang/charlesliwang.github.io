@@ -12,243 +12,82 @@
 <meta name="description" content="Portfolio">
 <meta name="author" content="Charles Wang">
 <title>Charles Wang Portfolio</title>
-<link href="css/parallax.css" rel="stylesheet" type="text/css">
-<link href="bootstrap-responsive.css" rel="stylesheet" type="text/css">
-<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
-<link href="portfolioStyle.css" rel="stylesheet" type="text/css">
-<link href="portfolioResponsive.css" rel="stylesheet" type="text/css">
-<!--
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build
--->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script src="respond.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/styleResponsive.css" rel="stylesheet" type="text/css">
 
 <!-- Import any font of your choice-->
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-<script>var __adobewebfontsappname__="dreamweaver"</script>
-<script src="http://use.edgefonts.net/montserrat:n4:default;alice:n4:default.js" type="text/javascript"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
-<script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
-<script src="js/jquery.imagesloaded.min.js" type="text/javascript"></script>
-<script src="js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>
-<script src="js/spin.min.js" type="text/javascript"></script>
-<script src="js/skrollr.js"></script>
-<script src="js/_main.js"></script>
-<script src="js/portfolio.js" type="text/javascript"></script>	<!-- Add jQuery library -->
-<script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
-    <script>
-    $(document).ready(function() {
-            var p = $("#samplegallery").portfolio({ logger: true});
-            p.init();
-        }); // end of ready();
-    </script>  
+
 </head>
 
 <body>
 <!--************************************************************************
 Container starts here
 ****************************************************************************-->
-	<div class="gridContainer clearfix">
-    <!--************************************************************************
-    HERO Section starts here
-    ****************************************************************************-->
-    <header id="slide-1" class="fluid hero heroHeader">
-      <!--Add you logo here-->
-        <div class="bcg" 
-	        		data-center="background-position: 50% 0px;" 
-	        		data-top-bottom="background-position: 50% -100px;" 
-             data-anchor-target="#slide-1">
-      <a href="index.html" title="HOME"><figure class="fluid logo textStyle">HOME</figure></a>
-      <nav class="fluid topNav">
-        <!-- Customize your navigation links-->
-        <ul class="fluid fluidList topNavUl">
-            <li class="fluid topNavLI"><strong><a href="index.html#reel" class="linkStyle" title="Nav Link">REEL</a></strong></li>
-            <li class="fluid topNavLI zeroMargin_desktop zeroMargin_tablet zeroMargin_mobile"><strong><a href="art.html" class="linkStyle" title="Nav Link">ART</a></strong></li>
-            <li class="fluid topNavLI"><strong><a href="music.html" class="linkStyle" title="Nav Link">MUSIC</a></strong></li>
-          <li class="fluid topNavLI"><strong><a href="index.html" class="linkStyle" title="Nav Link">CODE</a></strong></li>
-          </ul>
-        </nav>
-        <h1 class="fluid mainHeading headingStyle">CHARLES WANG</h1>
-        <h6 class="fluid mainTagline textStyle"> Artist, Game Developer, Musician</h6>
-    </header>
-    <!--HERO section ends here-->
-
-    <!--************************************************************************
-    Primary Container starts here
-    ****************************************************************************-->
-        <article id="info" class="fluid textContainer info">
-            <section id="sectionOne" class="fluid"><h2 id="AboutCharles" class="sectionText">About Charles</h2>
-                <p class="paraContent"> I'm Charles, a junior pursuing a BSE in Digital Media Design at the University of Pennsylvania School of Engineering and Applied Sciences. I'm an enthusiast and a creator. </p> 
-                <p class="paraContent invisible"> secret </p>
-              <p class="paraContent">  I grew up (and am still growing up) as an obsessive gamer, a devoted musician, and an experimental artist. Every fixation I've had, whether it be about music, technology, or visual arts, has molded the unique lens through which I see this hectic world. Much of my work reflects this interdisciplinary passion, and the idea of a mixed identity.</p>
-                <p class="paraContent invisible"> secret </p>
-            <p class="paraContent">  I believe that passion breeds passion, and that the intersection of our eclectic interests is what allows us to do amazing things. </p>
-            <p class="paraContent invisible"> secret </p>
-                <div class="wrapper">  <a href="Charles_Wang_Resume.pdf">Resume</a></div>
-          </section>
-          <section id="sectionTwo" class="fluid ">
-                <div class="bcg" 
-	        		data-center="background-position: 50% 0px;" 
-	        		data-top-bottom="background-position: 50% -100px;" 
-                data-anchor-target="#sectionTwo"> </div>
-          </section>
-          </article>
-    <!--Primary content area ends here-->
-
-    <!--************************************************************************
-    Gallery starts here - Elements hidden in mobile mode can be revisited by going into manage hidden element mode available in context menu
-    ****************************************************************************-->
-
-    <section id="reel" class="fluid ">
-        <h2 class="fluid showAreaH2 headingStyle">REEL</h2>
-        <figure class="reel">
-            <iframe src="https://player.vimeo.com/video/155475281" width=100% height=80% frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </figure>
+    <section class="headerStyle" id="TitleHeader"> 
+        <div class="centerxy" style="width:100%"> <h1>CHARLES WANG</h1> </div>
+        <div class="centersubtitle" style="width:25%"> <h4>3D Artist, Game Developer, CG Programmer (and more)</h4></div>
+        <div class="centersubtitle2" style="width:25%"> <h5> much more to come from this website soon!!</h5></div>
     </section>
-
-      <article class="fluid gallery">
-        <h2 class="fluid showAreaH2 headingStyle">SAMPLE WORK</h2>
-        <div id="sample1">
-            <div id="samplegallery">
-                <img data-src="http://charlesliwang.com/images/pop.png">
-                <img data-src="http://charlesliwang.com/images/antonio_full.jpg">
-                <img data-src="http://charlesliwang.com/images/upsidedown_full.jpg" />
-<!--
-                <a class="fancybox-button" rel="fancybox-button" href="http://charlesliwang.com/images/antonio_full.jpg" title=" TEMP ">
-	               <img data-src="http://charlesliwang.com/images/antonio_full.jpg" alt="" />
-                </a>
-                <a class="fancybox-button" rel="fancybox-button" href="http://charlesliwang.com/images/kidfull.jpg" title=" TEMP ">
-	               <img data-src="http://charlesliwang.com/images/kidfull.jpg" alt="" />
-                </a>
-                <a class="fancybox-button" rel="fancybox-button" href="http://charlesliwang.com/images/upsidedown_full.jpg" title=" TEMP ">
-	               <img data-src="http://charlesliwang.com/images/upsidedown_full.jpg" alt="" />
-                </a>
--->
-            </div> <!-- .gallery -->
-          </div>
+    
+    <section id="info">
+    <section id="infoSection">
+        <div class="center"> <h2> ABOUT ME </h2> </div>
+        <div class="center floatLeft"> <p> I'm Charles, a student pursuing a BSE in Digital Media Design and an MSE in Computer Graphics and Game Technology at the University of Pennsylvania School of Engineering and Applied Sciences. I'm an enthusiast and a creator. </p> <br>
+            <p>I grew up (and am still growing up) as an obsessive gamer, a devoted musician, and an experimental artist. Every fixation I've had, whether it be about music, technology, or visual arts, has molded the unique lens through which I see this hectic world. Much of my work reflects this interdisciplinary passion, and the idea of a mixed identity.
+                I believe that passion breeds passion, and that the intersection of our eclectic interests is what allows us to do amazing things.</p>
+        <br>
+            <p> Check out my <a href="files/charles_wang_resume.pdf">resume</a>, and feel free to contact me at chawang@seas.upenn.edu with any questions about my work! </p></div> 
+        <div class="center logos"> <img src="images/zbrush.png" > <img src="images/maya.png"> <img src="images/keyshot.png"> <img src="images/ps.png"> <img src="images/sp.png"> <img src="images/unity.png"> <img src="images/ue.png"> </div>
+    </section>
+    
+    <section id="demoReel"> 
         
-      </article>
-    <!--Gallery ends here-->
-     <div class="lightbox" id="img1" style="overflow-y: scroll;">
-      <div class="box">
-        <a class="close" href="#sample1">X</a>
-        <p class="title"> not all popes are dope</p>
-        <div class="content">
-            <img src="images/pop.png">
-      	</div>
-      </div>
-    </div>
-
-    <div class="lightbox" id="img2" style="overflow-y: scroll;">
-      <div class="box">
-        <a class="close" href="#sample1">X</a>
-        <p class="title"> ink + charcoal animation</p>
-        <div class="content">
-            <iframe width="800" height="500" src="https://www.youtube.com/embed/5y2QcnamU-I" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-
-    <div class="lightbox" id="img3" style="overflow-y: scroll;">
-      <div class="box">
-        <a class="close" href="#sample1">X</a>
-        <p class="title"> shanghai skyline 3d model </p>
-        <div class="content">
-            <img src="images/shanghai_render_crit.png">
-            <a class="text" href="art.html#3D">See More 3D Work</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="lightbox" id="img4" style="overflow-y: scroll;">
-      <div class="box">
-        <a class="close" href="#sample1">X</a>
-        <p class="title"> 8 years </p>
-        <div class="content">
-            <img src="images/antonio_full.jpg">
-        </div>
-      </div>
-    </div>
-
-    <div class="lightbox" id="img5" style="overflow-y: scroll;">
-      <div class="box">
-        <a class="close" href="#sample1">X</a>
-        <p class="title"> right side up </p>
-        <div class="content">
-            <img src="images/upsidedown_full.jpg">
-        </div>
-      </div>
-    </div>
-
-    <div class="lightbox" id="img6" style="overflow-y: scroll;">
-      <div class="box">
-        <a class="close" href="#sample1">X</a>
-        <p class="title"> realistic alakzam render </p>
-        <div class="content">
-            <img src="images/alakazam.001.jpg">
-        </div>
-
-      </div>
-    </div>
-
-    <!--************************************************************************
-    Secondary container starts here
-    ****************************************************************************-->
-
-    <!--Secondary content section ends here-->
-
-    <!--************************************************************************
-    Footer starts here
-    ****************************************************************************-->
-
-<!--
-      <footer class="fluid footer">
-          <section class="fluid footerSection zeroMargin_desktop zeroMargin_tablet"><h2 class="fluid footerTitle headingStyle">Footer 1</h2>
-
-            <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-
+        <div class="center"> <h2> DEMO REEL </h2> </div>
+        <div class="center floatRight">
+            <iframe src="https://player.vimeo.com/video/155475281" width= "100%" height="70%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+    
+    </section>
+    </section>
+    
+    <section id="sampleWork">
+        
+<!--        SAMPLE WORK 1         -->
+        <div class="center" style="padding-top:7vh"> <h3> SAMPLE WORK </h3> </div>
+        <section class="float"> 
+                <div class="floatLeft invisible"> <h4> "Realistic Pokemon Study 3" </h4> </div>
+            <div class="center floatLeft">
+                <div class="sketchfab-embed-wrapper aspect-ratio75"><iframe src="https://sketchfab.com/models/23d719cef06f402b8eb9611961654e49/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+                </div>
+            </div>
         </section>
-        <section class="fluid footerSection hide_mobile">
-          <h2 class="fluid footerTitle headingStyle">Footer 2</h2>
-
-            <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-
+        <section class="float"> 
+                <div class="floatRight"> <h4> "Realistic Pokemon Study 3" </h4> </div>
+            <div class="center floatRight">
+            <img src="images/nidorino2.png" width="100%"> 
+            </div>
         </section>
-        <section class="fluid footerSection hide_mobile">
-          <h2 class="fluid footerTitle headingStyle">Footer 3</h2>
-
-            <p class="paraContent footerTextContainer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-
+        <div class="invisible"> <h4> break </h4> </div>
+        
+<!--        SAMPLE WORK 2         -->
+        
+        <section class="float"> 
+                <div class="floatLeft "> <h4> "FNAR399 Advanced Modeling Reel" </h4> </div>
+            <div class="center floatLeft">
+                <img src="images/guitar.png" width="100%"> 
+            </div>
         </section>
-      </footer>
--->
-
-      <article class="fluid textContainer" id="secondaryStyling">
-        <section class="fluid secondarySection zeroMargin_desktop zeroMargin_tablet">
-          <h3 class="fluid secondaryHeading contactStyle">CONTACT ME</h3>
-           <p class="contentArea">chawang@seas.upenn.edu</p>
+        <section class="float"> 
+                <div class="floatRight invisible"> <h4> "FNAR366 Advanced Modeling Reel" </h4> </div>
+            <div class="center floatRight">
+                <div class= aspect-ratio75><iframe src="https://player.vimeo.com/video/171347745" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+            </div>
         </section>
-          </section>
-          <section class="fluid secondarySection ">
-          <h3 class="fluid secondaryHeading contactStyle">ABOUT THIS WEBSITE</h3>
-          <p class="contentArea">This website is built, designed, and organized by Charles Wang (with the help of some starting templates and online tutorials). None of this website's structure or design was paid for.</p>
-        </section>
-      </article>
-    <!--Footer ends here-->
-</div>
-<!--Container ends here-->
+        
+<!--        SAMPLE WORK 3         -->
+            
+            
+    </section>
+    
 </body>
 </html>
