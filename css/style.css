@@ -311,3 +311,7 @@ a:hover {
 .fillheight {
     height:100%;
 }
+
+.hidescroll {
+    opacity: 0;
+}
