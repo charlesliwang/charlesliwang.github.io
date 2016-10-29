@@ -139,22 +139,22 @@ var clock = new THREE.Clock();
 					mixer.clipAction( geometry.animations[ 0 ] ).setDuration( 1 ).play();
 					mixers.push( mixer );
         } );
-        loader.load( 'models/rice_clump.js', function( geometry ) {
-					var material = new THREE.MeshPhongMaterial( { color: 0xAAFFFF, specular: 0x00FF00, shininess: 1, morphTargets: true, vertexColors: THREE.FaceColors, shading: THREE.FlatShading } );
-					var mesh = new THREE.Mesh( geometry, material );
-					var s = 3.5;
-					mesh.scale.set( s, s, s );
-					mesh.position.y = -5.5;
-//					mesh.rotation.y = -0.4;
-					mesh.castShadow = true;
-                    
-//					mesh.receiveShadow = true;
-					scene.add( mesh );
-                    objects.push(mesh);
-					var mixer = new THREE.AnimationMixer( mesh );
-					mixer.clipAction( geometry.animations[ 0 ] ).setDuration( 1 ).play();
-					mixers.push( mixer );
-        } );
+//        loader.load( 'models/rice_clump.js', function( geometry ) {
+//					var material = new THREE.MeshPhongMaterial( { color: 0xAAFFFF, specular: 0x00FF00, shininess: 1, morphTargets: true, vertexColors: THREE.FaceColors, shading: THREE.FlatShading } );
+//					var mesh = new THREE.Mesh( geometry, material );
+//					var s = 3.5;
+//					mesh.scale.set( s, s, s );
+//					mesh.position.y = -5.5;
+////					mesh.rotation.y = -0.4;
+//					mesh.castShadow = true;
+//                    
+////					mesh.receiveShadow = true;
+//					scene.add( mesh );
+//                    objects.push(mesh);
+//					var mixer = new THREE.AnimationMixer( mesh );
+//					mixer.clipAction( geometry.animations[ 0 ] ).setDuration( 1 ).play();
+//					mixers.push( mixer );
+//        } );
        
         
 
