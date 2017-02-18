@@ -69,13 +69,13 @@ var clock = new THREE.Clock();
         scene.add( dirLight );
         
         //SHADOWS
-        var d = 40;
-        dirLight.shadow.camera.left = -d;
-        dirLight.shadow.camera.right = d;
-        dirLight.shadow.camera.top = d;
-        dirLight.shadow.camera.bottom = -d;
-        dirLight.shadow.camera.far = 2000;
-        dirLight.shadow.bias = -0.0001;
+//        var d = 40;
+//        dirLight.shadow.camera.left = -d;
+//        dirLight.shadow.camera.right = d;
+//        dirLight.shadow.camera.top = d;
+//        dirLight.shadow.camera.bottom = -d;
+//        dirLight.shadow.camera.far = 2000;
+//        dirLight.shadow.bias = -0.0001;
         lights.push(dirLight);
 
       // Load in the mesh and add it to the scene.
@@ -93,6 +93,22 @@ var clock = new THREE.Clock();
       scene.add(cube);
       objects.push(cube);
         var loader = new THREE.JSONLoader();
+        loader.load( 'models/slow_4.js', function( geometry ) {
+					var material = new THREE.MeshPhongMaterial( { color: 0xE07F67, specular: 0xBB342F, shininess: 1, morphTargets: true, vertexColors: THREE.FaceColors, shading: THREE.FlatShading } );
+					var mesh = new THREE.Mesh( geometry, material );
+					var s = 3.5;
+					mesh.scale.set( s, s, s );
+					mesh.position.y = -5.5;
+//					mesh.rotation.y = -0.4;
+					mesh.castShadow = true;
+                    
+//					mesh.receiveShadow = true;
+					scene.add( mesh );
+                    objects.push(mesh);
+					var mixer = new THREE.AnimationMixer( mesh );
+					mixer.clipAction( geometry.animations[ 0 ] ).setDuration( 1 ).play();
+					mixers.push( mixer );
+        } );
         loader.load( 'models/rice_base.js', function( geometry ) {
 					var material = new THREE.MeshPhongMaterial( { color: 0xAAFFFF, specular: 0x00FF00, shininess: 1, morphTargets: true, vertexColors: THREE.FaceColors, shading: THREE.FlatShading } );
 					var mesh = new THREE.Mesh( geometry, material );
@@ -123,22 +139,7 @@ var clock = new THREE.Clock();
 //					mixer.clipAction( geometry.animations[ 0 ] ).setDuration( 1 ).play();
 //					mixers.push( mixer );
         } );
-        loader.load( 'models/slow_4.js', function( geometry ) {
-					var material = new THREE.MeshPhongMaterial( { color: 0xE07F67, specular: 0xBB342F, shininess: 1, morphTargets: true, vertexColors: THREE.FaceColors, shading: THREE.FlatShading } );
-					var mesh = new THREE.Mesh( geometry, material );
-					var s = 3.5;
-					mesh.scale.set( s, s, s );
-					mesh.position.y = -5.5;
-//					mesh.rotation.y = -0.4;
-					mesh.castShadow = true;
-                    
-//					mesh.receiveShadow = true;
-					scene.add( mesh );
-                    objects.push(mesh);
-					var mixer = new THREE.AnimationMixer( mesh );
-					mixer.clipAction( geometry.animations[ 0 ] ).setDuration( 1 ).play();
-					mixers.push( mixer );
-        } );
+        
 //        loader.load( 'models/rice_clump.js', function( geometry ) {
 //					var material = new THREE.MeshPhongMaterial( { color: 0xAAFFFF, specular: 0x00FF00, shininess: 1, morphTargets: true, vertexColors: THREE.FaceColors, shading: THREE.FlatShading } );
 //					var mesh = new THREE.Mesh( geometry, material );

@@ -12,11 +12,12 @@
     }
     
     h4 {
-        font-size:7px;
+        font-size:10px;
     }
     
     h6 {
-        font-size:15px;
+        font-size:7px;
+    letter-spacing: 2px;
     }
 
     p {
@@ -54,7 +55,7 @@
     width:200px;
     text-align: left;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 70%;
     transform: translate(-50%, -50%);
     }

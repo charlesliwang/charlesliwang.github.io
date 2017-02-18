@@ -46,7 +46,7 @@ h4 {
     margin: auto;
     margin-bottom: 5px;
     color: white;
-    font-family: 'paragraph' , sans-serif;
+    font-family: 'paragraph2' , sans-serif;
 	font-style: normal;
 	font-weight: 100;
     font-size: 20px;
@@ -258,6 +258,13 @@ a:hover {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'paragraph2';
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #sampleWork {
     background-color: #75848A;
     height: auto;
@@ -331,7 +338,7 @@ a:hover {
     text-align: center;
     position: absolute;
     top: 0%;
-    left: 95%;
+    left: 97%;
     transform: translate(-100%, 100%);
     width: 50%;
 }
@@ -340,6 +347,6 @@ a:hover {
     float: right;
 	font-family: 'League-Bold' , sans-serif;
     font-size: 25px;
-    padding-right: 7%;
+    padding-left: 7%;
     
 }
