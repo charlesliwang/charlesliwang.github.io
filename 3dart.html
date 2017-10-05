@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <link href="responsive.css" rel="stylesheet">
+        <link href="responsive.css" rel="stylesheet"><link rel="shortcut icon" type="image/x-icon" href="icon.ico"/>
+
+        
+        
+        <title>Charles Wang</title>
+           
+    </head>
+    
+    <body>
+                 
+        <section id="navBar">
+            
+            <div id="mobileMenu">
+            
+            <div id="mobileMenuContent" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <div class="overlay-content">
+                    <a href="index.html"><h1>HOME</h1></a>
+                    <a href="demo.html"><h1>DEMO REEL</h1></a>
+                    <a href="3dart.html"><h1>3D ART</h1></a>
+                    <a href="graphics.html"><h1>GRAPHICS</h1></a>
+                    <a href="photo.html"><h1>PHOTO</h1></a>
+                </div>
+            </div>
+            
+            <span style="font-size:25px;cursor:pointer" onclick="openNav()"><h1 style="font-size: 10px; padding: 1em 2em; margin: 2em 0 0 2em; float: left; color:white; width: 40px; border: 1px solid white;" class="menuButtonMobile" >MENU</h1></span>
+             
+            </div>
+             
+            
+            <div class="navBarDesktop">
+               
+                <div class="menu">
+                       <span style="float: left; padding: 0 0.25em">
+                           <a href="index.html"  class="hvr-underline-reveal"><h4 style=" margin: 0; ">HOME</h4></a></span>
+                
+                       <div style="float: left; padding: 0 0.25em">
+                           <a href="demo.html"   class="hvr-underline-reveal"><h4 style="margin: 0;">DEMO REEL</h4></a></div>
+                
+                       <div style="float: left; padding: 0 0.25em" >
+                           <a href="3dart.html"  class="hvr-underline-reveal"><h4 style="margin: 0;">3D ART</h4></a></div>
+                
+                       <div style="float: left; padding: 0 0.25em">
+                           <a href="graphics.html"  class="hvr-underline-reveal"><h4 style="margin: 0;">GRAPHICS</h4></a>     </div>
+                
+                       <div style="float: left; padding: 0 0.25em">
+                           <a href="photo.html"  class="hvr-underline-reveal"><h4 style="margin: 0;">PHOTO</h4></a></div>
+                            
+                </div>
+                
+                
+                <div id="nameHeader">
+                    <h1>Charles Wang</h1>
+                    <h2>3D Artist, Game Developer, CG Programmer</h2>
+                </div>
+               
+                
+            </div>
+                
+        </section>
+        
+        
+        <section id="body">
+            
+<!--
+            <div class="infoBox">
+                <h5 style="text-align: center;">3D ART</h5>
+                <br>
+                <p>This is some of my 3D artwork. I like to use ZBrush, Maya, Redshift, and many other software because I am a smart babe!!!</p>
+            </div>
+-->
+            
+            <ul class="flex-container">
+                    
+                
+                <li class="art">
+                    <div id="mainArtDescript"><h5 style="text-align: center;">3D ART</h5>
+                    <p>These are the projects I'm most proud of. Character creation is what got me into 3D art, but I'm also a big fan of shading and lighting and I dabble in animation.</p>
+                    </div>
+                
+                </li>
+                <!--MACHAMP-->
+                <li class="art">
+                    <button onClick="openPopUp('machamp_pop')"><img src="3dart/pokemonbattle_sq.jpg" class="btnimage hvr-grow"></button>
+                </li>
+
+                <!--GUITAR-->
+                <li class="art">
+                    <button onClick="openPopUp('guitar_pop')"><img src="3dart/guitar_sq.jpg" class="btnimage hvr-grow"></button>
+                </li>
+                
+                <!--MASKGIRL-->
+                <li class="art">
+                    <button onClick="openPopUp('maskgirl_pop')"><img src="3dart/maskgirl_sq.jpg" class="btnimage hvr-grow"></button>
+                </li>
+                
+                
+                <!--SUMMONED SKULL-->
+                <li class="art">
+                    <button onClick="openPopUp('skull_pop')"><img src="3dart/summonedskull_sq.jpg" class="btnimage hvr-grow"></button>
+                </li>
+                
+                <!--FOX-->
+                <li class="art">
+                    <button onClick="openPopUp('fox_pop')"><img src="3dart/fox_sq.png" class="btnimage hvr-grow"></button>
+                </li>
+                
+                <!--env_anim_sq-->
+                <li class="art">
+                    <button onClick="openPopUp('env_anim_pop')"><img src="3dart/env_anim_sq.jpg" class="btnimage hvr-grow"></button>
+                </li>
+                
+            <!--MISC-->
+                <li class="art">
+                    <button onClick="openPopUp('misc_pop')"><img src="3dart/loris.jpg" class="btnimage hvr-grow"></button>
+                </li>
+         
+                
+            </ul>
+            
+
+            
+            <div id="closebutton" class="close"><a onClick="closePopUp()" style="
+    color: #393939;">&times;</a></div>
+            
+            <!--MACHAMP CONTENT-->
+            <div id="machamp_pop" class="overlay1wrapper">
+                
+
+            <div class="overlay1">
+                
+		          <div class="content">
+                                            
+                      <div style="margin: 0 auto;">
+                          <div class="artDescript">
+                              
+                              <div class="artDescriptText"><h3 style="margin-top:0;">MACHAMP VS. NIDOKING</h3>
+                            <p>This old school Pokemon reimagination is pretty much at the core of why I love computer graphics—inventive characters brought to life through engrossing environments and subtle movement.</p>
+                                  
+                                  <div style="padding-top: 30px">
+                             
+                              <img src="logos/arnold.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                                  </div>
+                        </div>
+                        <div class="video3D">  
+                            <iframe src="https://player.vimeo.com/video/203716582" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                      </div>
+                            
+                        
+                       
+                      </div>        
+                            
+                      <div style="clear:both"></div>
+                      
+                      <br>
+                      <h3>BREAKDOWN</h3>
+                        
+                      <div style="">
+                        <img src="3dart/pokemonbattle_with_wire.png" class="art3D">
+                        <img src="3dart/pokemonbattle_wire2.png" class="art3D" >
+                       
+                      </div>
+                      
+                
+                      
+                      
+                      <ul class="flex-container2">
+                          <li id="battleTextures">
+                        <div class="model3D">
+                            <iframe width="100%" height="100%" src="https://sketchfab.com/models/3763c84043ca4fb092527de2142b801b/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe></div>
+                        <img src="3dart/machamp_maps.jpg" class="textureImg">
+                       </li>
+                          <li id="battleTextures">
+                          
+                        <div class="model3D">
+                            <iframe width="100%" height="100%" src="https://sketchfab.com/models/23d719cef06f402b8eb9611961654e49/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+                        </div>
+                        <img src="3dart/nidoking_maps.jpg"  class="textureImg">
+                            </li>
+                </ul>
+                    
+	         </div> 
+            </div>
+                </div>
+            
+        
+            <!--GUITAR CONTENT-->
+            <div id="guitar_pop" class="overlay1wrapper">
+
+            <div class="overlay1">
+                
+		          <div class="content">
+                      
+                      
+                          <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">HOME STUDIO</h3>
+                            <p style="text-align: justify">This scene is built off of one of my very first modeling projects—the guitar that sits in focus of the shot. This project served mostly as Redshift rendering practice and helped me develop an appreciation for small details in lighting in enclosed environments.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/ps.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                              </div>
+                      
+                          <div class="video3D">
+                              <iframe src="https://player.vimeo.com/video/235677510" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                      
+		          </div>
+                
+	        </div> 
+            </div>
+            
+            <!--MASKGIRL CONTENT-->
+            <div id="maskgirl_pop" class="overlay1wrapper">
+
+            <div class="overlay1">
+                
+		          <div class="content">
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">HANNYA MASK AND HUMAN</h3>
+                            <p style="text-align: justify">Concept by: <a href="https://www.instagram.com/p/BV7cBk4gKb4/?hl=en&taken-by=_jordiros_" target="_blank">@_jordiros_</a>.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                    
+                      <img src='3dart/maskgirl.png' class="art3DMain">
+                      
+                      <div style="clear:both"></div>
+                      <div>
+                           <br>
+                        <h3>BREAKDOWN</h3>
+                        
+                        <img src='3dart/masknormdiff.jpg' class="textureImg">
+                        <img src='3dart/maskmetalrough.jpg' class="textureImg">
+                      </div>
+
+                      
+		          </div>
+                
+	        </div> 
+            </div>
+            
+            
+            <!--YUGIOH CONTENT-->
+            <div id="skull_pop" class="overlay1wrapper">
+
+            <div class="overlay1">
+                
+		          <div class="content">
+                      
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">YUGIOH</h3>
+                            <p style="text-align: justify">I always found that the original YuGiOh card artwork lacked some dimensionality (they're still amazing though!), so I decided add my own spin to a couple mosters.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                    
+                      
+                      <img src='3dart/summonedskull.png' class="art3DMain">
+                      <div style="clear:both"></div>
+                      <img src='3dart/timewizard.png' class="art3DMain">
+                      
+                      <img src='3dart/timewizard2.png' class="art3DMain">
+		          </div>
+                
+	        </div> 
+            </div>
+            
+            <!--FOX CONTENT-->
+            <div id="fox_pop" class="overlay1wrapper">
+
+            <div class="overlay1">
+                
+		          <div class="content">
+                      
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">FOX</h3>
+                            <p style="text-align: justify">A fun helmet based on Fox McCloud, one of my favorite characters from Super Smash Bros. Melee. This was quick practice with hard surface techniques in ZBrush and mask generators in Substance Painter.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                      
+                      <img src="3dart/fox.png" class="art3DMain">
+                      <div style="clear:both"></div>
+                      
+                      
+                      <div class="model3D"><iframe width="100%" height="100%" src="https://sketchfab.com/models/6458b780f8c9414d8b2e85f7c55dabe2/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+                    
+                      </div>
+                      
+                      <img src="3dart/foxmetalrough.jpg" class="textureImg">
+                      <img src="3dart/foxnormdiff.jpg" class="textureImg">
+                      <img src="3dart/fox_head_vcol.jpg" class="textureImg">
+                
+	        </div> 
+            </div> 
+            </div>
+            
+            <!--env_anim CONTENT-->
+            <div id="env_anim_pop" class="overlay1wrapper">
+
+            <div class="overlay1">
+                
+		          <div class="content">
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">COEXIST - Environmental Animation Final Project</h3>
+                            <p style="text-align: justify">My final project for FNAR547 - Environmental Animation at the University of Pennsylvania. I wanted to play around with the concept of characters as part of large scale environment. I also used this project to practice fully procedural textures in Maya and Redshift and contrasted them with completely hand modeled environmental assets.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                    
+                      
+                      <div class="video3D"><iframe src="https://player.vimeo.com/video/225715487" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+		          </div>
+                
+	        </div> 
+            </div> 
+            
+            
+            <!--misc CONTENT-->
+            <div id="misc_pop" class="overlay1wrapper">
+
+            <div class="overlay1">
+                
+		          <div class="content">
+                      
+                      <div class="artDescript" style="display:block"><div class="artDescriptText">
+                          <h3>DOODLES</h3>
+                          <p>These are some smaller-scale projects. These quick pieces are a ton of fun and help me get rid of any artist's block. Keep up with my other doodles on <a href="http://www.instagram.com/chaysonaplane" target="_blank">Instagram. </a>
+                          </p>
+                      </div>
+                      </div>
+                      
+                       <div class="miscArt">
+                          
+                        <img src="3dart/loris.jpg">
+                     </div>
+                        
+                      <div class="miscArt">
+                          
+                        <img src="3dart/morty.gif" class="poop">
+                        <img onmouseover="showGif(this)" onmouseout="hideGif(this)" src="3dart/morty_1.png" class="poop">
+                     </div>
+                      
+                      <div class="miscArt">
+                          
+                        <img src="3dart/mask_anim400.gif" class="poop">
+                        <img onmouseover="showGif(this)" onmouseout="hideGif(this)" src="3dart/mask_anim1.png" class="poop">
+                     </div>
+                      
+                   
+                    <div class="miscArt">
+                          
+                        <div class="model3D" style="padding:0"><iframe width="100%" height="100%" src="https://sketchfab.com/models/ddbabd4428594bc082cd86a5331cecb1/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe></div>
+                     </div>
+                      
+		          </div>
+                
+	        </div> 
+            </div>
+            
+        </section>
+        
+        
+        
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.12.2.min.js"></script>
+
+        <script src="main.js" type="text/javascript"></script>
+        
+        
+    </body>
+</html>
