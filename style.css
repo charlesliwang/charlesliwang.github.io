@@ -36,7 +36,7 @@ h3{ /* BODY TITLES*/
 h4{ /*MENU ITEM*/
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 11.5px;
     letter-spacing: 1px;
     padding: .5em;
     text-align: center;
@@ -81,7 +81,7 @@ p{
 #nameHeader {
     text-align: right;
     padding-top: 2em;
-    padding-right: 5em;
+    padding-right: 3.5em;
     display: block;
 
 }
@@ -109,7 +109,7 @@ a:visited{
     min-width: 300px;
     padding-top: 1.5em;
     float: left;
-    padding-left: 5em;
+    padding-left: 3.5em;
 }
 
 #nameHeader a{
@@ -136,7 +136,7 @@ a:visited{
 }
 
 #body {
-    padding: 3em 5em;
+    padding: 3em 3.5em;
     position: relative;
     top: 6em;
 }
@@ -219,16 +219,16 @@ a:visited{
 
 .art {
   background-color: #e3e3e3;
-  margin: 0 18px 18px 18px;
-  width: 220px;
-  height: 220px;
+  margin: 18px 18px 0 0;
+  width: 240px;
+  height: 240px;
 }
 
 
 button {
   background: blue;
-  width: 220px;
-  height: 220px;
+  width: 240px;
+  height: 240px;
     padding: 0; 
     margin: 0;
     border: none;
@@ -241,8 +241,8 @@ button:focus {
 }
 
 .btnimage {
-    width: 220px;
-    height: 220px;
+    width: 240px;
+    height: 240px;
 } 
 
 
@@ -268,10 +268,9 @@ button:focus {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 0;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     
 }
 
@@ -329,7 +328,7 @@ button:focus {
 }
 
 .infoBox {
-    width: 470px; 
+    width: 100%; 
     background-color: #e3e3e3;
     padding: 1em;
     margin-bottom: 1em;
@@ -370,7 +369,7 @@ button:focus {
 }
 
 .artDescript {
-    width: 45%;
+    margin: 2em;
     display: inline-block;
 }
 
@@ -380,7 +379,7 @@ button:focus {
 }
 
 .logo {
-    width: 40px;
+    width: 30px;
     padding-right: 10px;
 }
 
@@ -425,8 +424,8 @@ button:focus {
 
 
 .artDescriptText {
-    width: 350px;
-    margin: 2em;
+    width: 450px;
+    margin: 0em;
     display: inline-block;
 }
 
@@ -459,7 +458,7 @@ button:focus {
 #graphics .infoBox{
     padding: 1em 0;
     margin-bottom: 3em;
-    width: 45%;
+    width: 100%;
 }
 
 .poop {
@@ -503,3 +502,5 @@ button:focus {
     padding: 2px 5px;
     opacity: 0;
 }
+
+

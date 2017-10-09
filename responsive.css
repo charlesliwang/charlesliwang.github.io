@@ -70,10 +70,7 @@
         margin-top: 1em;
     }
     
-    .infoBox{
-        width: 450px;
-        
-    }
+    
     
     .aboutme{
         padding-left: 0em;
@@ -115,6 +112,7 @@
     .artDescript {
         width: 100%;
         padding-bottom: 2em;
+        margin: 0;
     }
     
     
@@ -153,6 +151,9 @@
         width: auto;
     }
 
+    .flex-container{
+        justify-content: center;
+    }
 }
     
 
@@ -182,43 +183,38 @@
     }
     
     
-    .infoBox{
-        width: auto;
-        
-    }
-    
     .art{
         margin: 5px;
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
     
     button{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
     
     .btnimage{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
     
     .art3D{
         width: 100%;
     }
     
-  .art3DMain{
-        width: 335px;
+    .art3DMain{
+        width: 300px;
     }
     
     .model3D {
-        height: 335px;
-        width: 335px;
+        height: 300px;
+        width: 300px;
     }
     
     .textureImg{
-        height: 335px;
-        width: 335px;
+        height: 300px;
+        width: 300px;
     }
     
     h5{
@@ -255,8 +251,8 @@
     }
     
     .miscArt{
-        width: 335px;
-        height: 335px;
+        width: 300px;
+        height: 300px;
     }
     
     #lorisPic {
