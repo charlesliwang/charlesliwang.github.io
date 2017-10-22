@@ -197,18 +197,18 @@
     
     .art{
         margin: 5px;
-        width: 125px;
-        height: 125px;
+        width: 150px;
+        height: 150px;
     }
     
     button{
-        width: 125px;
-        height: 125px;
+        width: 150px;
+        height: 150px;
     }
     
     .btnimage{
-        width: 125px;
-        height: 125px;
+        width: 150px;
+        height: 150px;
     }
     
     .art3D{
@@ -283,5 +283,10 @@
     #leaf{
         bottom: 75px;
         right: 5px;
+    }
+    
+    
+    #demoReelDescript{
+        padding-left:1em;
     }
 }
