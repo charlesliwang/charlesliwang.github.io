@@ -18,8 +18,8 @@
 @media (max-width: 860px) {
     
     #body{
-        padding: 0em 1em 1em 1em;
-        margin-top: 1em;
+        padding: 0em;
+        margin-top: 0em;
     }
     .menu{
         display: none;
@@ -28,7 +28,7 @@
     
     #nameHeader{
         color: white;
-        padding-top: 1.5em;
+        padding-top: 1em;
         padding-right: 3em;
     }
     
@@ -73,7 +73,7 @@
     
     
     .aboutme{
-        padding-left: 0em;
+        padding:1em;
     }
     
     .overlay1wrapper{
@@ -131,7 +131,7 @@
         justify-content: flex-start;
     }
     .gameDescriptText{
-        padding: 1em 0;
+        padding: 1em;
         width: auto;
         margin: 0 auto;
     }
@@ -146,9 +146,20 @@
         padding-bottom: 0;
     }
     
-    #graphics .infoBox{
-    margin-bottom: 1em;
-        width: auto;
+    
+    .infoBox{
+        display:block;
+        background-color: #e3e3e3;
+        padding: 1em 0;
+        margin-bottom: 1em;
+        width: 100%;
+        
+        
+        
+    }
+    
+    .infoBox h5{
+        text-align: center;
     }
 
     .flex-container{
@@ -162,6 +173,7 @@
 @media (max-width: 600px) {
     #nameHeader{
         text-align: right;
+        padding-top: 1.5em;
     }
     
     #nameHeader h1{
@@ -221,6 +233,8 @@
         font-size: 14pt;
         padding-bottom: 0em;
     }
+    
+    
     
     .art p{
         font-size: 8pt;
