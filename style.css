@@ -52,6 +52,10 @@ h5{
     padding-bottom: 0em;
 }
 
+h6 {
+    margin: auto;
+}
+
 p{
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
@@ -131,11 +135,24 @@ a:visited{
 }
 
 .video3D {
-    height: 25em;
-    width: 45%;
+    height: 30em;
+    width: 100%;
     float: left;
     padding-bottom: 2em;
     display: inline-block;
+    
+}
+
+.maxHeightWrapper {
+    max-height: 30em;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#graphics  .video3D {
+    height: 20em;
+    width: 45%;
     
 }
 
@@ -252,10 +269,10 @@ button:focus {
 
 
 .content {
-    overflow: scroll;
+/*    overflow: scroll;*/
     background-color: #efefef;
     padding: 2em 3em 13em 3em;
-    position: relative;
+/*    position: relative;*/
     z-index: 0;
     min-height: 550px;
     
@@ -373,6 +390,7 @@ button:focus {
 .artDescript {
     margin: 2em;
     display: inline-block;
+    width: 10em;
 }
 
 
@@ -431,15 +449,25 @@ button:focus {
     display: inline-block;
 }
 
+.artCenter {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
 #mainArtDescript {
     padding: 1.5em;
 }
 
 
 .art3DMain {
-    width: 45%;
-    float: left;
-    padding: 0 15px 30px 0;
+    height: 28em;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+/*    float: left;*/
+/*    padding: 0 15px 30px 0;*/
+/*    display: inline-block;*/
 }
 
 
