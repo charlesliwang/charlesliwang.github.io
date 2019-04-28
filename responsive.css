@@ -87,7 +87,7 @@
         right: .5em;
         position: fixed;
         z-index: 1;
-        visibility: hidden;
+/*        visibility: hidden;*/
         cursor: pointer;
         font-size: 25px;
     }

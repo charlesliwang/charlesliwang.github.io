@@ -371,7 +371,7 @@ button:focus {
     right: 40px;
     position: absolute;
     z-index: 1;
-    visibility: hidden;
+/*    visibility: hidden;*/
     cursor: pointer;
     font-size: 30px;
 }
