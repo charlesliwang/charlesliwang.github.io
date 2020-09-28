@@ -1,0 +1,49 @@
+{"airmax97" : {
+    "name" : "Houdini Motion Graphics Reel",
+    "icons" : ["redshift", "houdini"],
+    "main" : ["https://player.vimeo.com/video/335736034"]
+},
+"pokemonbattle" : {
+    "name" : "Pokemon Battle: Machamp vs. Nidoking",
+    "icons" : ["arnold", "sp", "maya", "zbrush"],
+    "main" : ["https://player.vimeo.com/video/203716582"],
+    "breakdown" : ["pokemonbattle_wire.png", "pokemonbattle_wire2.png",
+                    "https://sketchfab.com/models/3763c84043ca4fb092527de2142b801b/embed",
+                    "machamp_maps.jpg",
+                    "https://sketchfab.com/models/23d719cef06f402b8eb9611961654e49/embed",
+                    "nidoking_maps.jpg"
+                ]
+},
+"maskgirl" : {
+    "name" : "Hannya Mask and Human",
+    "icons" : ["redshift", "sp", "maya", "zbrush"],
+    "main" : ["maskgirl.png"],
+    "breakdown" : ["masknormdiff.jpg",
+                   "maskmetalrough.jpg"
+            ]
+},
+"yugioh" : {
+    "name" : "Yugioh",
+    "icons" : ["redshift", "sp", "maya", "zbrush"],
+    "main" : ["summonedskull.png", "timewizard.png", "timewizard2.png"]
+},
+"coral" : {
+    "name" : "Space Colonization",
+    "icons" : ["redshift", "houdini"],
+    "main" : ["https://player.vimeo.com/video/255484596"]
+},
+"guitar" : {
+    "name" : "Home Studio",
+    "icons" : ["redshift", "maya", "ps"],
+    "main" : ["https://player.vimeo.com/video/235677510"]
+},
+"env_anim" : {
+    "name" : "Coexist",
+    "icons" : ["redshift", "maya", "zbrush"],
+    "main" : ["https://player.vimeo.com/video/225715487"]
+},
+"doodles" : {
+    "name" : "Doodles",
+    "icons" : ["redshift", "houdini"]
+} 
+}
