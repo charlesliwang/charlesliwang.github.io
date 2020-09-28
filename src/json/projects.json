@@ -40,10 +40,5 @@
 "env_anim" : {
     "name" : "Coexist",
     "icons" : ["redshift", "maya", "zbrush"],
-    "main" : ["https://player.vimeo.com/video/225715487"]
-},
-"doodles" : {
-    "name" : "Doodles",
-    "icons" : ["redshift", "houdini"]
-} 
+    "main" : ["https://player.vimeo.com/video/225715487"]}
 }
