@@ -38,7 +38,6 @@ class ArtPage extends Component {
     render() {
         let project = null;
         if ( this.state.displayProject ) {
-        // if (true) {
             project = (
                 <ArtDescription closeWindow={this.closeWindow} 
                                 projectName={this.state.curProject}

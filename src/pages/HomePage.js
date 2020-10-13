@@ -22,10 +22,14 @@ class HomePage extends Component {
                     <a href="https://www.linkedin.com/in/charlesliwang/" target="_blank" rel="noopener noreferrer">linkedin.com/in/charlesliwang</a> <br></br>
                     <a href="https://www.instagram.com/chaysonaplane/" target="_blank" rel="noopener noreferrer">instagram.com/chaysonaplane</a> <br></br><br></br>
                     or just check out my <a href={require("../pdfs/Charles_Wang_Resume.pdf")} target="_blank" rel="noopener noreferrer">resume</a>.</p>
-                        
+                    
+                    <div style={{marginTop: '40px', marginBottom: '80px'}}>
+                        <p>Website built in React.js by Charles Wang</p>
+                        <p>and designed by <a href="http://irenaxia.com/">Irena Xia</a></p>
+                    </div>
                 </Row>
-                <Image style={{position:"fixed",width:"250px",height:"250px",right:"0",bottom:"0"}} src={require("./../images/loris.png")}>
-                </Image> 
+                <Image id="loris" src={require("./../images/loris.png")}>
+                </Image>
             </Container>
 
             
